@@ -1,0 +1,33 @@
+AOIS_1:18:void_validate(java.lang.String,java.lang.String):n => ++n
+AOIS_2:18:void_validate(java.lang.String,java.lang.String):n => --n
+AOIS_3:18:void_validate(java.lang.String,java.lang.String):n => n++
+AOIS_4:18:void_validate(java.lang.String,java.lang.String):n => n--
+ROR_1:18:void_validate(java.lang.String,java.lang.String): n < 0  =>   n > 0
+ROR_2:18:void_validate(java.lang.String,java.lang.String): n < 0  =>   n >= 0
+ROR_3:18:void_validate(java.lang.String,java.lang.String): n < 0  =>   n <= 0
+ROR_4:18:void_validate(java.lang.String,java.lang.String): n < 0  =>   n == 0
+ROR_5:18:void_validate(java.lang.String,java.lang.String): n < 0  =>   n != 0
+ROR_6:18:void_validate(java.lang.String,java.lang.String): n < 0  =>   true
+ROR_7:18:void_validate(java.lang.String,java.lang.String): n < 0  =>   false
+COI_1:18:void_validate(java.lang.String,java.lang.String): n < 0  =>  !(n < 0)
+LOI_1:18:void_validate(java.lang.String,java.lang.String):n => ~n
+SDL_1:18:void_validate(java.lang.String,java.lang.String): int n = Integer.parseInt( value ); if (n < 0) {     throw new com.beust.jcommander.ParameterException( \"Parameter \" + name + \" should be positive (found \" + value + \")\" ); }  =>   int n = Integer.parseInt( value );
+SDL_2:19:void_validate(java.lang.String,java.lang.String): throw new com.beust.jcommander.ParameterException( \"Parameter \" + name + \" should be positive (found \" + value + \")\" );  =>  
+SDL_3:21:void_validate(java.lang.String,java.lang.String): if (n < 0) {     throw new com.beust.jcommander.ParameterException( \"Parameter \" + name + \" should be positive (found \" + value + \")\" ); }  =>   if (true) {     throw new com.beust.jcommander.ParameterException( \"Parameter \" + name + \" should be positive (found \" + value + \")\" ); }
+VDL_1:18:void_validate(java.lang.String,java.lang.String):n < 0 => 0
+VDL_2:19:void_validate(java.lang.String,java.lang.String):"Parameter " + name => "Parameter "
+VDL_3:19:void_validate(java.lang.String,java.lang.String):"Parameter " + name + " should be positive (found " + value => "Parameter " + name + " should be positive (found "
+ODL_1:18:void_validate(java.lang.String,java.lang.String):n < 0 => n
+ODL_2:18:void_validate(java.lang.String,java.lang.String):n < 0 => 0
+ODL_3:19:void_validate(java.lang.String,java.lang.String):"Parameter " + name => "Parameter "
+ODL_4:19:void_validate(java.lang.String,java.lang.String):"Parameter " + name => name
+ODL_5:19:void_validate(java.lang.String,java.lang.String):"Parameter " + name + " should be positive (found " => "Parameter " + name
+ODL_6:19:void_validate(java.lang.String,java.lang.String):"Parameter " + name + " should be positive (found " => " should be positive (found "
+ODL_7:19:void_validate(java.lang.String,java.lang.String):"Parameter " + name + " should be positive (found " + value => "Parameter " + name + " should be positive (found "
+ODL_8:19:void_validate(java.lang.String,java.lang.String):"Parameter " + name + " should be positive (found " + value => value
+ODL_9:19:void_validate(java.lang.String,java.lang.String):"Parameter " + name + " should be positive (found " + value + ")" => "Parameter " + name + " should be positive (found " + value
+ODL_10:19:void_validate(java.lang.String,java.lang.String):"Parameter " + name + " should be positive (found " + value + ")" => ")"
+CDL_1:18:void_validate(java.lang.String,java.lang.String):n < 0 => n
+CDL_2:19:void_validate(java.lang.String,java.lang.String):"Parameter " + name => name
+CDL_3:19:void_validate(java.lang.String,java.lang.String):"Parameter " + name + " should be positive (found " => "Parameter " + name
+CDL_4:19:void_validate(java.lang.String,java.lang.String):"Parameter " + name + " should be positive (found " + value + ")" => "Parameter " + name + " should be positive (found " + value

@@ -1,0 +1,32 @@
+IPC_1:24:super( f ); is deleted
+IPC_2:30:super( f, debug ); is deleted
+IPC_3:36:super( f ); is deleted
+PCI_1:143:mutant_op => ((mujava.openjava.extension.EvaluationShuttle)mutant_op)
+PCI_2:143:mutant_op => ((mujava.op.basic.CreateDirForEachMethod)mutant_op)
+PCI_3:143:mutant_op => ((mujava.op.PPD)mutant_op)
+PCC_1:143:(mujava.op.IOR)  =>  (mujava.openjava.extension.EvaluationShuttle)
+JSI_1:18:static is inserted
+JSI_2:20:static is inserted
+JID_1:18: boolean existIHDfalse =>  boolean existIHD;
+EAM_1:69:cdecl.getName() => cdecl.getMetaclass()
+EAM_2:69:cdecl.getName() => cdecl.getComment()
+EAM_3:112:cdecl.getName() => cdecl.getMetaclass()
+EAM_4:112:cdecl.getName() => cdecl.getComment()
+EAM_5:113:cdecl.getName() => cdecl.getMetaclass()
+EAM_6:113:cdecl.getName() => cdecl.getComment()
+EAM_7:125:parent_class.getName() => parent_class.getSimpleName()
+EAM_8:125:parent_class.getName() => parent_class.getTypeName()
+EAM_9:125:parent_class.getName() => parent_class.getSimpleBinaryName()
+EAM_10:125:parent_class.getName() => parent_class.getCanonicalName()
+EAM_11:125:parent_class.getName() => parent_class.getName0()
+EAM_12:125:parent_class.getName() => parent_class.getGenericSignature0()
+EAM_13:126:parent_class.getName() => parent_class.getSimpleName()
+EAM_14:126:parent_class.getName() => parent_class.getTypeName()
+EAM_15:126:parent_class.getName() => parent_class.getSimpleBinaryName()
+EAM_16:126:parent_class.getName() => parent_class.getCanonicalName()
+EAM_17:126:parent_class.getName() => parent_class.getName0()
+EAM_18:126:parent_class.getName() => parent_class.getGenericSignature0()
+IHI_1:18:openjava.mop.FileEnvironment file_env; is added.
+IHI_2:18:openjava.ptree.CompilationUnit comp_unit; is added.
+IHI_3:18:java.io.File original_file; is added.
+IOD_1:261:public void compileMutants() is deleted.

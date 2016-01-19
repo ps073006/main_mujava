@@ -1,0 +1,3 @@
+void_print(java.lang.String)
+void_println(java.lang.String)
+char_readPassword(boolean)

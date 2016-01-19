@@ -1,0 +1,8 @@
+ClassMutantsGenerator(java.io.File)
+ClassMutantsGenerator(java.io.File,boolean)
+ClassMutantsGenerator(java.io.File,java.lang.String[])
+void_genMutants()
+void_genClassMutants(openjava.ptree.ClassDeclarationList)
+void_genClassMutants2(openjava.ptree.ClassDeclarationList)
+void_genClassMutants1(openjava.ptree.ClassDeclarationList)
+void_compileMutants()

@@ -1,0 +1,41 @@
+IPC_1:27:super( f ); is deleted
+IPC_2:34:super( f, debug ); is deleted
+IPC_3:41:super( f ); is deleted
+PRV_1:28:classOp = MutationSystem.cm_operators;  =>  classOp = traditionalOp;
+PRV_2:29:traditionalOp = MutationSystem.tm_operators;  =>  traditionalOp = classOp;
+PRV_3:35:classOp = MutationSystem.cm_operators;  =>  classOp = traditionalOp;
+PRV_4:36:traditionalOp = MutationSystem.tm_operators;  =>  traditionalOp = classOp;
+PRV_5:42:classOp = cOP;  =>  classOp = traditionalOp;
+PRV_6:43:traditionalOp = tOP;  =>  traditionalOp = classOp;
+PCI_1:157:mutant_op => ((mujava.openjava.extension.EvaluationShuttle)mutant_op)
+PCI_2:157:mutant_op => ((mujava.op.basic.CreateDirForEachMethod)mutant_op)
+PCI_3:157:mutant_op => ((mujava.op.PPD)mutant_op)
+PCC_1:157:(mujava.op.IOR)  =>  (mujava.openjava.extension.EvaluationShuttle)
+JSI_1:19:static is inserted
+JSI_2:21:static is inserted
+JSI_3:23:static is inserted
+JID_1:19: boolean existIHDfalse =>  boolean existIHD;
+EAM_1:83:cdecl.getName() => cdecl.getMetaclass()
+EAM_2:83:cdecl.getName() => cdecl.getComment()
+EAM_3:126:cdecl.getName() => cdecl.getMetaclass()
+EAM_4:126:cdecl.getName() => cdecl.getComment()
+EAM_5:127:cdecl.getName() => cdecl.getMetaclass()
+EAM_6:127:cdecl.getName() => cdecl.getComment()
+EAM_7:139:parent_class.getName() => parent_class.getSimpleName()
+EAM_8:139:parent_class.getName() => parent_class.getTypeName()
+EAM_9:139:parent_class.getName() => parent_class.getSimpleBinaryName()
+EAM_10:139:parent_class.getName() => parent_class.getCanonicalName()
+EAM_11:139:parent_class.getName() => parent_class.getName0()
+EAM_12:139:parent_class.getName() => parent_class.getGenericSignature0()
+EAM_13:140:parent_class.getName() => parent_class.getSimpleName()
+EAM_14:140:parent_class.getName() => parent_class.getTypeName()
+EAM_15:140:parent_class.getName() => parent_class.getSimpleBinaryName()
+EAM_16:140:parent_class.getName() => parent_class.getCanonicalName()
+EAM_17:140:parent_class.getName() => parent_class.getName0()
+EAM_18:140:parent_class.getName() => parent_class.getGenericSignature0()
+EAM_19:293:cdecl.getName() => cdecl.getMetaclass()
+EAM_20:293:cdecl.getName() => cdecl.getComment()
+IHI_1:19:openjava.mop.FileEnvironment file_env; is added.
+IHI_2:19:openjava.ptree.CompilationUnit comp_unit; is added.
+IHI_3:19:java.io.File original_file; is added.
+IOD_1:275:public void compileMutants() is deleted.

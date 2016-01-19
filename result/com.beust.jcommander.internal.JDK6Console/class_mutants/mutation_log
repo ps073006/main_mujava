@@ -1,0 +1,6 @@
+JSI_1:15:static is inserted
+JSI_2:17:static is inserted
+JTD_1:22:this.console => console
+JTI_1:22:console  -->  this.console
+JTI_2:23:console  -->  this.console
+JTI_3:24:console  -->  this.console

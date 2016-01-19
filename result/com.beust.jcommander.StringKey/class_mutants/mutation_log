@@ -1,0 +1,4 @@
+PCD_1:49:(com.beust.jcommander.StringKey) obj => obj
+JSI_1:13:static is inserted
+IOD_1:25:public java.lang.String toString() is deleted.
+IOD_2:38:public boolean equals(java.lang.Object obj) is deleted.

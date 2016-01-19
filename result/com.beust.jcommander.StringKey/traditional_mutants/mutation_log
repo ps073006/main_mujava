@@ -1,0 +1,87 @@
+AORB_1:34:int_hashCode():prime * result => prime / result
+AORB_2:34:int_hashCode():prime * result => prime % result
+AORB_3:34:int_hashCode():prime * result => prime + result
+AORB_4:34:int_hashCode():prime * result => prime - result
+AORB_5:34:int_hashCode():prime * result + (m_name == null ? 0 : m_name.hashCode()) => prime * result * (m_name == null ? 0 : m_name.hashCode())
+AORB_6:34:int_hashCode():prime * result + (m_name == null ? 0 : m_name.hashCode()) => prime * result / (m_name == null ? 0 : m_name.hashCode())
+AORB_7:34:int_hashCode():prime * result + (m_name == null ? 0 : m_name.hashCode()) => prime * result % (m_name == null ? 0 : m_name.hashCode())
+AORB_8:34:int_hashCode():prime * result + (m_name == null ? 0 : m_name.hashCode()) => prime * result - (m_name == null ? 0 : m_name.hashCode())
+AOIU_1:34:int_hashCode():prime => -prime
+AOIU_2:35:int_hashCode():result => -result
+AOIS_1:34:int_hashCode():prime => ++prime
+AOIS_2:34:int_hashCode():prime => --prime
+AOIS_3:34:int_hashCode():prime => prime++
+AOIS_4:34:int_hashCode():prime => prime--
+AOIS_5:34:int_hashCode():result => ++result
+AOIS_6:34:int_hashCode():result => --result
+AOIS_7:34:int_hashCode():result => result++
+AOIS_8:34:int_hashCode():result => result--
+AOIS_9:35:int_hashCode():result => result++
+AOIS_10:35:int_hashCode():result => result--
+ROR_1:34:int_hashCode(): m_name == null  =>   m_name != null
+ROR_2:40:boolean_equals(java.lang.Object): this == obj  =>   this != obj
+ROR_3:43:boolean_equals(java.lang.Object): obj == null  =>   obj != null
+ROR_4:46:boolean_equals(java.lang.Object): getClass() != obj.getClass()  =>   getClass() == obj.getClass()
+ROR_5:50:boolean_equals(java.lang.Object): m_name == null  =>   m_name != null
+ROR_6:51:boolean_equals(java.lang.Object): other.m_name != null  =>   other.m_name == null
+COD_1:55:boolean_equals(java.lang.Object):!m_name.equals( other.m_name ) => m_name.equals( other.m_name )
+COI_1:34:int_hashCode(): m_name == null  =>  !(m_name == null)
+COI_2:40:boolean_equals(java.lang.Object): this == obj  =>  !(this == obj)
+COI_3:43:boolean_equals(java.lang.Object): obj == null  =>  !(obj == null)
+COI_4:46:boolean_equals(java.lang.Object): getClass() != obj.getClass()  =>  !(getClass() != obj.getClass())
+COI_5:50:boolean_equals(java.lang.Object): m_name == null  =>  !(m_name == null)
+COI_6:51:boolean_equals(java.lang.Object): other.m_name != null  =>  !(other.m_name != null)
+LOI_1:34:int_hashCode():prime => ~prime
+LOI_2:34:int_hashCode():result => ~result
+LOI_3:35:int_hashCode():result => ~result
+SDL_1:17:StringKey(java.lang.String): m_name = name;  =>  
+SDL_2:23:java.lang.String_getName(): return m_name;  =>   return \"\";
+SDL_3:28:java.lang.String_toString(): return m_name;  =>   return \"\";
+SDL_4:35:int_hashCode(): final int prime = 31; int result = 1; result = prime * result + (m_name == null ? 0 : m_name.hashCode()); return result;  =>   final int prime = 31; int result = 1; return result;
+SDL_5:36:int_hashCode(): return result;  =>   return 0;
+SDL_6:57:boolean_equals(java.lang.Object): if (this == obj) {     return true; } if (obj == null) {     return false; } if (getClass() != obj.getClass()) {     return false; } com.beust.jcommander.StringKey other = (com.beust.jcommander.StringKey) obj; if (m_name == null) {     if (other.m_name != null) {         return false;     } } else {     if (!m_name.equals( other.m_name )) {         return false;     } } return true;  =>   if (obj == null) {     return false; } if (getClass() != obj.getClass()) {     return false; } com.beust.jcommander.StringKey other = (com.beust.jcommander.StringKey) obj; if (m_name == null) {     if (other.m_name != null) {         return false;     } } else {     if (!m_name.equals( other.m_name )) {         return false;     } } return true;
+SDL_7:57:boolean_equals(java.lang.Object): if (this == obj) {     return true; } if (obj == null) {     return false; } if (getClass() != obj.getClass()) {     return false; } com.beust.jcommander.StringKey other = (com.beust.jcommander.StringKey) obj; if (m_name == null) {     if (other.m_name != null) {         return false;     } } else {     if (!m_name.equals( other.m_name )) {         return false;     } } return true;  =>   if (this == obj) {     return true; } if (getClass() != obj.getClass()) {     return false; } com.beust.jcommander.StringKey other = (com.beust.jcommander.StringKey) obj; if (m_name == null) {     if (other.m_name != null) {         return false;     } } else {     if (!m_name.equals( other.m_name )) {         return false;     } } return true;
+SDL_8:57:boolean_equals(java.lang.Object): if (this == obj) {     return true; } if (obj == null) {     return false; } if (getClass() != obj.getClass()) {     return false; } com.beust.jcommander.StringKey other = (com.beust.jcommander.StringKey) obj; if (m_name == null) {     if (other.m_name != null) {         return false;     } } else {     if (!m_name.equals( other.m_name )) {         return false;     } } return true;  =>   if (this == obj) {     return true; } if (obj == null) {     return false; } com.beust.jcommander.StringKey other = (com.beust.jcommander.StringKey) obj; if (m_name == null) {     if (other.m_name != null) {         return false;     } } else {     if (!m_name.equals( other.m_name )) {         return false;     } } return true;
+SDL_9:51:boolean_equals(java.lang.Object): if (this == obj) {     return true; } if (obj == null) {     return false; } if (getClass() != obj.getClass()) {     return false; } com.beust.jcommander.StringKey other = (com.beust.jcommander.StringKey) obj; if (m_name == null) {     if (other.m_name != null) {         return false;     } } else {     if (!m_name.equals( other.m_name )) {         return false;     } } return true;  =>   if (this == obj) {     return true; } if (obj == null) {     return false; } if (getClass() != obj.getClass()) {     return false; } com.beust.jcommander.StringKey other = (com.beust.jcommander.StringKey) obj; return true;
+SDL_10:43:boolean_equals(java.lang.Object): if (this == obj) {     return true; }  =>   if (true) {     return true; }
+SDL_11:42:boolean_equals(java.lang.Object): return true;  =>   return false;
+SDL_12:46:boolean_equals(java.lang.Object): if (obj == null) {     return false; }  =>   if (true) {     return false; }
+SDL_13:45:boolean_equals(java.lang.Object): return false;  =>   return true;
+SDL_14:49:boolean_equals(java.lang.Object): if (getClass() != obj.getClass()) {     return false; }  =>   if (true) {     return false; }
+SDL_15:48:boolean_equals(java.lang.Object): return false;  =>   return true;
+SDL_16:51:boolean_equals(java.lang.Object): if (other.m_name != null) {     return false; }  =>  
+SDL_17:59:boolean_equals(java.lang.Object): if (m_name == null) {     if (other.m_name != null) {         return false;     } } else {     if (!m_name.equals( other.m_name )) {         return false;     } }  =>   if (true) {     if (other.m_name != null) {         return false;     } } else {     if (!m_name.equals( other.m_name )) {         return false;     } }
+SDL_18:55:boolean_equals(java.lang.Object): if (!m_name.equals( other.m_name )) {     return false; }  =>  
+SDL_19:54:boolean_equals(java.lang.Object): if (other.m_name != null) {     return false; }  =>   if (true) {     return false; }
+SDL_20:53:boolean_equals(java.lang.Object): return false;  =>   return true;
+SDL_21:58:boolean_equals(java.lang.Object): if (!m_name.equals( other.m_name )) {     return false; }  =>   if (true) {     return false; }
+SDL_22:57:boolean_equals(java.lang.Object): return false;  =>   return true;
+SDL_23:60:boolean_equals(java.lang.Object): return true;  =>   return false;
+VDL_1:34:int_hashCode():prime * result => result
+VDL_2:34:int_hashCode():prime * result => prime
+VDL_3:34:int_hashCode():m_name == null => null
+VDL_4:40:boolean_equals(java.lang.Object):this == obj => this
+VDL_5:43:boolean_equals(java.lang.Object):obj == null => null
+VDL_6:50:boolean_equals(java.lang.Object):m_name == null => null
+ODL_1:34:int_hashCode():prime * result => prime
+ODL_2:34:int_hashCode():prime * result => result
+ODL_3:34:int_hashCode():m_name == null => m_name
+ODL_4:34:int_hashCode():m_name == null => null
+ODL_5:34:int_hashCode():prime * result + (m_name == null ? 0 : m_name.hashCode()) => prime * result
+ODL_6:34:int_hashCode():prime * result + (m_name == null ? 0 : m_name.hashCode()) => m_name == null ? 0 : m_name.hashCode()
+ODL_7:40:boolean_equals(java.lang.Object):this == obj => this
+ODL_8:40:boolean_equals(java.lang.Object):this == obj => obj
+ODL_9:43:boolean_equals(java.lang.Object):obj == null => obj
+ODL_10:43:boolean_equals(java.lang.Object):obj == null => null
+ODL_11:46:boolean_equals(java.lang.Object):getClass() != obj.getClass() => getClass()
+ODL_12:46:boolean_equals(java.lang.Object):getClass() != obj.getClass() => obj.getClass()
+ODL_13:50:boolean_equals(java.lang.Object):m_name == null => m_name
+ODL_14:50:boolean_equals(java.lang.Object):m_name == null => null
+ODL_15:51:boolean_equals(java.lang.Object):other.m_name != null => other.m_name
+ODL_16:51:boolean_equals(java.lang.Object):other.m_name != null => null
+ODL_17:55:boolean_equals(java.lang.Object):!m_name.equals( other.m_name ) => m_name.equals( other.m_name )
+CDL_1:34:int_hashCode():m_name == null => m_name
+CDL_2:40:boolean_equals(java.lang.Object):this == obj => obj
+CDL_3:43:boolean_equals(java.lang.Object):obj == null => obj
+CDL_4:50:boolean_equals(java.lang.Object):m_name == null => m_name
+CDL_5:51:boolean_equals(java.lang.Object):other.m_name != null => other.m_name

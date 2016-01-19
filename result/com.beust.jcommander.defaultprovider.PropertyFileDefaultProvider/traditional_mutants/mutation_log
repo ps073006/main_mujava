@@ -1,0 +1,61 @@
+AORS_1:50:java.lang.String_getDefaultValueFor(java.lang.String):index++ => index--
+AODS_1:50:java.lang.String_getDefaultValueFor(java.lang.String):index++ => index
+AOIU_1:52:java.lang.String_getDefaultValueFor(java.lang.String):index => -index
+AOIS_1:49:java.lang.String_getDefaultValueFor(java.lang.String):index => ++index
+AOIS_2:49:java.lang.String_getDefaultValueFor(java.lang.String):index => --index
+AOIS_3:49:java.lang.String_getDefaultValueFor(java.lang.String):index => index++
+AOIS_4:49:java.lang.String_getDefaultValueFor(java.lang.String):index => index--
+AOIS_5:52:java.lang.String_getDefaultValueFor(java.lang.String):index => index++
+AOIS_6:52:java.lang.String_getDefaultValueFor(java.lang.String):index => index--
+ROR_1:36:void_init(java.lang.String): url != null  =>   url == null
+ROR_2:49:java.lang.String_getDefaultValueFor(java.lang.String): index < optionName.length()  =>   index > optionName.length()
+ROR_3:49:java.lang.String_getDefaultValueFor(java.lang.String): index < optionName.length()  =>   index >= optionName.length()
+ROR_4:49:java.lang.String_getDefaultValueFor(java.lang.String): index < optionName.length()  =>   index <= optionName.length()
+ROR_5:49:java.lang.String_getDefaultValueFor(java.lang.String): index < optionName.length()  =>   index == optionName.length()
+ROR_6:49:java.lang.String_getDefaultValueFor(java.lang.String): index < optionName.length()  =>   index != optionName.length()
+ROR_7:49:java.lang.String_getDefaultValueFor(java.lang.String): index < optionName.length()  =>   true
+ROR_8:49:java.lang.String_getDefaultValueFor(java.lang.String): index < optionName.length()  =>   false
+COR_1:49:java.lang.String_getDefaultValueFor(java.lang.String): index < optionName.length() && !Character.isLetterOrDigit( optionName.charAt( index ) )  =>   index < optionName.length() || !Character.isLetterOrDigit( optionName.charAt( index ) )
+COR_2:49:java.lang.String_getDefaultValueFor(java.lang.String): index < optionName.length() && !Character.isLetterOrDigit( optionName.charAt( index ) )  =>   index < optionName.length() ^ !Character.isLetterOrDigit( optionName.charAt( index ) )
+COD_1:49:java.lang.String_getDefaultValueFor(java.lang.String):!Character.isLetterOrDigit( optionName.charAt( index ) ) => Character.isLetterOrDigit( optionName.charAt( index ) )
+COI_1:36:void_init(java.lang.String): url != null  =>  !(url != null)
+COI_2:49:java.lang.String_getDefaultValueFor(java.lang.String): index < optionName.length()  =>  !(index < optionName.length())
+COI_3:49:java.lang.String_getDefaultValueFor(java.lang.String): index < optionName.length() && !Character.isLetterOrDigit( optionName.charAt( index ) )  =>  !(index < optionName.length() && !Character.isLetterOrDigit( optionName.charAt( index ) ))
+LOI_1:49:java.lang.String_getDefaultValueFor(java.lang.String):index => ~index
+LOI_2:49:java.lang.String_getDefaultValueFor(java.lang.String):index => ~index
+LOI_3:50:java.lang.String_getDefaultValueFor(java.lang.String):index => ~index
+LOI_4:52:java.lang.String_getDefaultValueFor(java.lang.String):index => ~index
+SDL_1:23:PropertyFileDefaultProvider(): init( DEFAULT_FILE_NAME );  =>  
+SDL_2:28:PropertyFileDefaultProvider(java.lang.String): init( fileName );  =>  
+SDL_3:41:void_init(java.lang.String): try {     m_properties = new java.util.Properties();     java.net.URL url = ClassLoader.getSystemResource( fileName );     if (url != null) {         m_properties.load( url.openStream() );     } else {         throw new com.beust.jcommander.ParameterException( \"Could not find property file: \" + fileName + \" on the class path\" );     } } catch ( java.io.IOException e ) {     throw new com.beust.jcommander.ParameterException( \"Could not open property file: \" + fileName ); }  =>   try {     java.net.URL url = ClassLoader.getSystemResource( fileName );     if (url != null) {         m_properties.load( url.openStream() );     } else {         throw new com.beust.jcommander.ParameterException( \"Could not find property file: \" + fileName + \" on the class path\" );     } }
+SDL_4:37:void_init(java.lang.String): try {     m_properties = new java.util.Properties();     java.net.URL url = ClassLoader.getSystemResource( fileName );     if (url != null) {         m_properties.load( url.openStream() );     } else {         throw new com.beust.jcommander.ParameterException( \"Could not find property file: \" + fileName + \" on the class path\" );     } } catch ( java.io.IOException e ) {     throw new com.beust.jcommander.ParameterException( \"Could not open property file: \" + fileName ); }  =>   try {     m_properties = new java.util.Properties();     java.net.URL url = ClassLoader.getSystemResource( fileName ); }
+SDL_5:37:void_init(java.lang.String): m_properties.load( url.openStream() );  =>  
+SDL_6:41:void_init(java.lang.String): if (url != null) {     m_properties.load( url.openStream() ); } else {     throw new com.beust.jcommander.ParameterException( \"Could not find property file: \" + fileName + \" on the class path\" ); }  =>   if (true) {     m_properties.load( url.openStream() ); } else {     throw new com.beust.jcommander.ParameterException( \"Could not find property file: \" + fileName + \" on the class path\" ); }
+SDL_7:39:void_init(java.lang.String): throw new com.beust.jcommander.ParameterException( \"Could not find property file: \" + fileName + \" on the class path\" );  =>  
+SDL_8:51:java.lang.String_getDefaultValueFor(java.lang.String): int index = 0; while (index < optionName.length() && !Character.isLetterOrDigit( optionName.charAt( index ) )) {     index++; } java.lang.String key = optionName.substring( index ); return m_properties.getProperty( key );  =>   int index = 0; java.lang.String key = optionName.substring( index ); return m_properties.getProperty( key );
+SDL_9:50:java.lang.String_getDefaultValueFor(java.lang.String): index++;  =>  
+SDL_10:52:java.lang.String_getDefaultValueFor(java.lang.String): while (index < optionName.length() && !Character.isLetterOrDigit( optionName.charAt( index ) )) {     index++; }  =>   while (true) {     index++; }
+SDL_11:54:java.lang.String_getDefaultValueFor(java.lang.String): return m_properties.getProperty( key );  =>   return \"\";
+VDL_1:36:void_init(java.lang.String):url != null => null
+VDL_2:39:void_init(java.lang.String):"Could not find property file: " + fileName => "Could not find property file: "
+VDL_3:42:void_init(java.lang.String):"Could not open property file: " + fileName => "Could not open property file: "
+VDL_4:49:java.lang.String_getDefaultValueFor(java.lang.String):index < optionName.length() => optionName.length()
+VDL_5:50:java.lang.String_getDefaultValueFor(java.lang.String):index++ =>  
+ODL_1:36:void_init(java.lang.String):url != null => url
+ODL_2:36:void_init(java.lang.String):url != null => null
+ODL_3:39:void_init(java.lang.String):"Could not find property file: " + fileName => "Could not find property file: "
+ODL_4:39:void_init(java.lang.String):"Could not find property file: " + fileName => fileName
+ODL_5:39:void_init(java.lang.String):"Could not find property file: " + fileName + " on the class path" => "Could not find property file: " + fileName
+ODL_6:39:void_init(java.lang.String):"Could not find property file: " + fileName + " on the class path" => " on the class path"
+ODL_7:42:void_init(java.lang.String):"Could not open property file: " + fileName => "Could not open property file: "
+ODL_8:42:void_init(java.lang.String):"Could not open property file: " + fileName => fileName
+ODL_9:49:java.lang.String_getDefaultValueFor(java.lang.String):index < optionName.length() => index
+ODL_10:49:java.lang.String_getDefaultValueFor(java.lang.String):index < optionName.length() => optionName.length()
+ODL_11:49:java.lang.String_getDefaultValueFor(java.lang.String):!Character.isLetterOrDigit( optionName.charAt( index ) ) => Character.isLetterOrDigit( optionName.charAt( index ) )
+ODL_12:49:java.lang.String_getDefaultValueFor(java.lang.String):index < optionName.length() && !Character.isLetterOrDigit( optionName.charAt( index ) ) => index < optionName.length()
+ODL_13:49:java.lang.String_getDefaultValueFor(java.lang.String):index < optionName.length() && !Character.isLetterOrDigit( optionName.charAt( index ) ) => !Character.isLetterOrDigit( optionName.charAt( index ) )
+ODL_14:50:java.lang.String_getDefaultValueFor(java.lang.String):index++ => index
+CDL_1:36:void_init(java.lang.String):url != null => url
+CDL_2:39:void_init(java.lang.String):"Could not find property file: " + fileName => fileName
+CDL_3:39:void_init(java.lang.String):"Could not find property file: " + fileName + " on the class path" => "Could not find property file: " + fileName
+CDL_4:42:void_init(java.lang.String):"Could not open property file: " + fileName => fileName

@@ -1,0 +1,5 @@
+StringKey(java.lang.String)
+java.lang.String_getName()
+java.lang.String_toString()
+int_hashCode()
+boolean_equals(java.lang.Object)

@@ -1,0 +1,18 @@
+SDL_1:17:BaseConverter(java.lang.String): m_optionName = optionName;  =>  
+SDL_2:23:java.lang.String_getOptionName(): return m_optionName;  =>   return \"\";
+SDL_3:28:java.lang.String_getErrorString(java.lang.String,java.lang.String): return \"\\\"\" + getOptionName() + \"\\\": couldn't convert \\\"\" + value + \"\\\" to \" + to;  =>   return \"\";
+VDL_1:27:java.lang.String_getErrorString(java.lang.String,java.lang.String):"\"" + getOptionName() + "\": couldn't convert \"" + value => "\"" + getOptionName() + "\": couldn't convert \""
+VDL_2:27:java.lang.String_getErrorString(java.lang.String,java.lang.String):"\"" + getOptionName() + "\": couldn't convert \"" + value + "\" to " + to => "\"" + getOptionName() + "\": couldn't convert \"" + value + "\" to "
+ODL_1:27:java.lang.String_getErrorString(java.lang.String,java.lang.String):"\"" + getOptionName() => "\""
+ODL_2:27:java.lang.String_getErrorString(java.lang.String,java.lang.String):"\"" + getOptionName() => getOptionName()
+ODL_3:27:java.lang.String_getErrorString(java.lang.String,java.lang.String):"\"" + getOptionName() + "\": couldn't convert \"" => "\"" + getOptionName()
+ODL_4:27:java.lang.String_getErrorString(java.lang.String,java.lang.String):"\"" + getOptionName() + "\": couldn't convert \"" => "\": couldn't convert \""
+ODL_5:27:java.lang.String_getErrorString(java.lang.String,java.lang.String):"\"" + getOptionName() + "\": couldn't convert \"" + value => "\"" + getOptionName() + "\": couldn't convert \""
+ODL_6:27:java.lang.String_getErrorString(java.lang.String,java.lang.String):"\"" + getOptionName() + "\": couldn't convert \"" + value => value
+ODL_7:27:java.lang.String_getErrorString(java.lang.String,java.lang.String):"\"" + getOptionName() + "\": couldn't convert \"" + value + "\" to " => "\"" + getOptionName() + "\": couldn't convert \"" + value
+ODL_8:27:java.lang.String_getErrorString(java.lang.String,java.lang.String):"\"" + getOptionName() + "\": couldn't convert \"" + value + "\" to " => "\" to "
+ODL_9:27:java.lang.String_getErrorString(java.lang.String,java.lang.String):"\"" + getOptionName() + "\": couldn't convert \"" + value + "\" to " + to => "\"" + getOptionName() + "\": couldn't convert \"" + value + "\" to "
+ODL_10:27:java.lang.String_getErrorString(java.lang.String,java.lang.String):"\"" + getOptionName() + "\": couldn't convert \"" + value + "\" to " + to => to
+CDL_1:27:java.lang.String_getErrorString(java.lang.String,java.lang.String):"\"" + getOptionName() => getOptionName()
+CDL_2:27:java.lang.String_getErrorString(java.lang.String,java.lang.String):"\"" + getOptionName() + "\": couldn't convert \"" => "\"" + getOptionName()
+CDL_3:27:java.lang.String_getErrorString(java.lang.String,java.lang.String):"\"" + getOptionName() + "\": couldn't convert \"" + value + "\" to " => "\"" + getOptionName() + "\": couldn't convert \"" + value

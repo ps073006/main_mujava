@@ -1,0 +1,2 @@
+MissingCommandException(java.lang.String)
+MissingCommandException(java.lang.Throwable)

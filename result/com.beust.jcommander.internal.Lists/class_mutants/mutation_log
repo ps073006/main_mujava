@@ -1,0 +1,4 @@
+OMR_1:24:newArrayList(c) => newArrayList();
+OMR_2:29:newArrayList(c) => newArrayList();
+OMR_3:34:newArrayList(size) => newArrayList();
+OMR_4:44:newLinkedList(c) => newLinkedList();

@@ -1,0 +1,54 @@
+c:\mujava\result\mujava.ClassMutantsGenerator\traditional_mutants\void_compileMutants()\VDL_16\ClassMutantsGenerator.java:7: error: package openjava.mop does not exist
+import openjava.mop.*;
+^
+c:\mujava\result\mujava.ClassMutantsGenerator\traditional_mutants\void_compileMutants()\VDL_16\ClassMutantsGenerator.java:8: error: package openjava.ptree does not exist
+import openjava.ptree.*;
+^
+c:\mujava\result\mujava.ClassMutantsGenerator\traditional_mutants\void_compileMutants()\VDL_16\ClassMutantsGenerator.java:59: error: package openjava.ptree does not exist
+     void genClassMutants( openjava.ptree.ClassDeclarationList cdecls )
+                                         ^
+c:\mujava\result\mujava.ClassMutantsGenerator\traditional_mutants\void_compileMutants()\VDL_16\ClassMutantsGenerator.java:65: error: package openjava.ptree does not exist
+     void genClassMutants2( openjava.ptree.ClassDeclarationList cdecls )
+                                          ^
+c:\mujava\result\mujava.ClassMutantsGenerator\traditional_mutants\void_compileMutants()\VDL_16\ClassMutantsGenerator.java:108: error: package openjava.ptree does not exist
+     void genClassMutants1( openjava.ptree.ClassDeclarationList cdecls )
+                                          ^
+c:\mujava\result\mujava.ClassMutantsGenerator\traditional_mutants\void_compileMutants()\VDL_16\ClassMutantsGenerator.java:42: error: cannot access CompilationUnit
+        if (comp_unit == null) {
+            ^
+  class file for openjava.ptree.CompilationUnit not found
+c:\mujava\result\mujava.ClassMutantsGenerator\traditional_mutants\void_compileMutants()\VDL_16\ClassMutantsGenerator.java:45: error: package openjava.ptree does not exist
+        openjava.ptree.ClassDeclarationList cdecls = comp_unit.getClassDeclarations();
+                      ^
+c:\mujava\result\mujava.ClassMutantsGenerator\traditional_mutants\void_compileMutants()\VDL_16\ClassMutantsGenerator.java:51: error: cannot access OJSystem
+            MutationSystem.clearPreviousClassMutants();
+                          ^
+  class file for openjava.mop.OJSystem not found
+c:\mujava\result\mujava.ClassMutantsGenerator\traditional_mutants\void_compileMutants()\VDL_16\ClassMutantsGenerator.java:68: error: package openjava.ptree does not exist
+            openjava.ptree.ClassDeclaration cdecl = cdecls.get( j );
+                          ^
+c:\mujava\result\mujava.ClassMutantsGenerator\traditional_mutants\void_compileMutants()\VDL_16\ClassMutantsGenerator.java:73: error: cannot access FileEnvironment
+                    mutant_op = new mujava.op.IHD( file_env, null, cdecl );
+                                                   ^
+  class file for openjava.mop.FileEnvironment not found
+c:\mujava\result\mujava.ClassMutantsGenerator\traditional_mutants\void_compileMutants()\VDL_16\ClassMutantsGenerator.java:75: error: cannot access OJClass
+                    if (((mujava.op.IHD) mutant_op).getTotal() > 0) {
+                         ^
+  class file for openjava.mop.OJClass not found
+c:\mujava\result\mujava.ClassMutantsGenerator\traditional_mutants\void_compileMutants()\VDL_16\ClassMutantsGenerator.java:81: error: cannot access Environment
+                    mutant_op = new mujava.op.IHI( file_env, null, cdecl );
+                                ^
+  class file for openjava.mop.Environment not found
+c:\mujava\result\mujava.ClassMutantsGenerator\traditional_mutants\void_compileMutants()\VDL_16\ClassMutantsGenerator.java:143: error: cannot access ParseTreeVisitor
+                                    ((mujava.op.IOR) mutant_op).setParentEnv( parent_file_env[0], parent_comp_unit[0] );
+                                     ^
+  class file for openjava.ptree.util.ParseTreeVisitor not found
+c:\mujava\result\mujava.ClassMutantsGenerator\traditional_mutants\void_compileMutants()\VDL_16\ClassMutantsGenerator.java:253: error: package openjava.ptree does not exist
+                } catch ( openjava.ptree.ParseTreeException e ) {
+                                        ^
+c:\mujava\result\mujava.ClassMutantsGenerator\traditional_mutants\void_compileMutants()\VDL_16\ClassMutantsGenerator.java:263: error: bad operand types for binary operator '&&'
+        if (null && classOp.length > 0) {
+                 ^
+  first type:  <null>
+  second type: boolean
+15 errors

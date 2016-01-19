@@ -1,0 +1,3 @@
+java.util.Map_newHashMap()
+java.util.Map_newLinkedHashMap()
+java.util.Map_newHashMap(T)

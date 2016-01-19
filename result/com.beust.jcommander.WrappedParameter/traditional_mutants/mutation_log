@@ -1,0 +1,157 @@
+AORB_1:94:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):aInd + 1 => aInd * 1
+AORB_2:94:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):aInd + 1 => aInd / 1
+AORB_3:94:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):aInd + 1 => aInd % 1
+AORB_4:94:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):aInd + 1 => aInd - 1
+AOIU_1:94:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):aInd => -aInd
+AOIU_2:94:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):aInd => -aInd
+AOIS_1:91:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):aInd => ++aInd
+AOIS_2:91:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):aInd => --aInd
+AOIS_3:91:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):aInd => aInd++
+AOIS_4:91:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):aInd => aInd--
+AOIS_5:94:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):aInd => aInd++
+AOIS_6:94:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):aInd => aInd--
+AOIS_7:94:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):aInd => ++aInd
+AOIS_8:94:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):aInd => --aInd
+AOIS_9:94:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):aInd => aInd++
+AOIS_10:94:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):aInd => aInd--
+ROR_1:40:int_arity(): m_parameter != null  =>   m_parameter == null
+ROR_2:45:boolean_hidden(): m_parameter != null  =>   m_parameter == null
+ROR_3:50:boolean_required(): m_parameter != null  =>   m_parameter == null
+ROR_4:55:boolean_password(): m_parameter != null  =>   m_parameter == null
+ROR_5:60:java.lang.String[]_names(): m_parameter != null  =>   m_parameter == null
+ROR_6:65:boolean_variableArity(): m_parameter != null  =>   m_parameter == null
+ROR_7:70:java.lang.Class_validateWith(): m_parameter != null  =>   m_parameter == null
+ROR_8:75:java.lang.Class_validateValueWith(): m_parameter != null  =>   m_parameter == null
+ROR_9:80:boolean_echoInput(): m_parameter != null  =>   m_parameter == null
+ROR_10:85:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object): m_parameter != null  =>   m_parameter == null
+ROR_11:91:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object): aInd == -1  =>   aInd > -1
+ROR_12:91:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object): aInd == -1  =>   aInd >= -1
+ROR_13:91:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object): aInd == -1  =>   aInd < -1
+ROR_14:91:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object): aInd == -1  =>   aInd <= -1
+ROR_15:91:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object): aInd == -1  =>   aInd != -1
+ROR_16:91:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object): aInd == -1  =>   true
+ROR_17:91:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object): aInd == -1  =>   false
+ROR_18:123:java.lang.String_getAssignment(): m_dynamicParameter != null  =>   m_dynamicParameter == null
+ROR_19:128:boolean_isHelp(): m_parameter != null  =>   m_parameter == null
+COR_1:128:boolean_isHelp(): m_parameter != null && m_parameter.help()  =>   m_parameter != null || m_parameter.help()
+COR_2:128:boolean_isHelp(): m_parameter != null && m_parameter.help()  =>   m_parameter != null ^ m_parameter.help()
+COI_1:40:int_arity(): m_parameter != null  =>  !(m_parameter != null)
+COI_2:45:boolean_hidden(): m_parameter != null  =>  !(m_parameter != null)
+COI_3:50:boolean_required(): m_parameter != null  =>  !(m_parameter != null)
+COI_4:55:boolean_password(): m_parameter != null  =>  !(m_parameter != null)
+COI_5:60:java.lang.String[]_names(): m_parameter != null  =>  !(m_parameter != null)
+COI_6:65:boolean_variableArity(): m_parameter != null  =>  !(m_parameter != null)
+COI_7:70:java.lang.Class_validateWith(): m_parameter != null  =>  !(m_parameter != null)
+COI_8:75:java.lang.Class_validateValueWith(): m_parameter != null  =>  !(m_parameter != null)
+COI_9:80:boolean_echoInput(): m_parameter != null  =>  !(m_parameter != null)
+COI_10:85:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object): m_parameter != null  =>  !(m_parameter != null)
+COI_11:91:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object): aInd == -1  =>  !(aInd == -1)
+COI_12:123:java.lang.String_getAssignment(): m_dynamicParameter != null  =>  !(m_dynamicParameter != null)
+COI_13:128:boolean_isHelp(): m_parameter != null  =>  !(m_parameter != null)
+COI_14:128:boolean_isHelp(): m_parameter != null && m_parameter.help()  =>  !(m_parameter != null && m_parameter.help())
+LOI_1:91:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):aInd => ~aInd
+LOI_2:94:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):aInd => ~aInd
+LOI_3:94:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):aInd => ~aInd
+SDL_1:20:WrappedParameter(com.beust.jcommander.Parameter): m_parameter = p;  =>  
+SDL_2:25:WrappedParameter(com.beust.jcommander.DynamicParameter): m_dynamicParameter = p;  =>  
+SDL_3:41:int_arity(): return m_parameter != null ? m_parameter.arity() : 1;  =>   return 0;
+SDL_4:46:boolean_hidden(): return m_parameter != null ? m_parameter.hidden() : m_dynamicParameter.hidden();  =>   return true;
+SDL_5:46:boolean_hidden(): return m_parameter != null ? m_parameter.hidden() : m_dynamicParameter.hidden();  =>   return false;
+SDL_6:51:boolean_required(): return m_parameter != null ? m_parameter.required() : m_dynamicParameter.required();  =>   return true;
+SDL_7:51:boolean_required(): return m_parameter != null ? m_parameter.required() : m_dynamicParameter.required();  =>   return false;
+SDL_8:56:boolean_password(): return m_parameter != null ? m_parameter.password() : false;  =>   return true;
+SDL_9:56:boolean_password(): return m_parameter != null ? m_parameter.password() : false;  =>   return false;
+SDL_10:66:boolean_variableArity(): return m_parameter != null ? m_parameter.variableArity() : false;  =>   return true;
+SDL_11:66:boolean_variableArity(): return m_parameter != null ? m_parameter.variableArity() : false;  =>   return false;
+SDL_12:81:boolean_echoInput(): return m_parameter != null ? m_parameter.echoInput() : false;  =>   return true;
+SDL_13:81:boolean_echoInput(): return m_parameter != null ? m_parameter.echoInput() : false;  =>   return false;
+SDL_14:85:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object): if (m_parameter != null) {     parameterized.set( object, value ); } else {     java.lang.String a = m_dynamicParameter.assignment();     java.lang.String sv = value.toString();     int aInd = sv.indexOf( a );     if (aInd == -1) {         throw new com.beust.jcommander.ParameterException( \"Dynamic parameter expected a value of the form a\" + a + \"b\" + \" but got:\" + sv );     }     callPut( object, parameterized, sv.substring( 0, aInd ), sv.substring( aInd + 1 ) ); }  =>  
+SDL_15:86:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object): parameterized.set( object, value );  =>  
+SDL_16:96:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object): if (m_parameter != null) {     parameterized.set( object, value ); } else {     java.lang.String a = m_dynamicParameter.assignment();     java.lang.String sv = value.toString();     int aInd = sv.indexOf( a );     if (aInd == -1) {         throw new com.beust.jcommander.ParameterException( \"Dynamic parameter expected a value of the form a\" + a + \"b\" + \" but got:\" + sv );     }     callPut( object, parameterized, sv.substring( 0, aInd ), sv.substring( aInd + 1 ) ); }  =>   if (true) {     parameterized.set( object, value ); } else {     java.lang.String a = m_dynamicParameter.assignment();     java.lang.String sv = value.toString();     int aInd = sv.indexOf( a );     if (aInd == -1) {         throw new com.beust.jcommander.ParameterException( \"Dynamic parameter expected a value of the form a\" + a + \"b\" + \" but got:\" + sv );     }     callPut( object, parameterized, sv.substring( 0, aInd ), sv.substring( aInd + 1 ) ); }
+SDL_17:92:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object): java.lang.String a = m_dynamicParameter.assignment(); java.lang.String sv = value.toString(); int aInd = sv.indexOf( a ); if (aInd == -1) {     throw new com.beust.jcommander.ParameterException( \"Dynamic parameter expected a value of the form a\" + a + \"b\" + \" but got:\" + sv ); } callPut( object, parameterized, sv.substring( 0, aInd ), sv.substring( aInd + 1 ) );  =>   java.lang.String a = m_dynamicParameter.assignment(); java.lang.String sv = value.toString(); int aInd = sv.indexOf( a ); callPut( object, parameterized, sv.substring( 0, aInd ), sv.substring( aInd + 1 ) );
+SDL_18:94:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object): java.lang.String a = m_dynamicParameter.assignment(); java.lang.String sv = value.toString(); int aInd = sv.indexOf( a ); if (aInd == -1) {     throw new com.beust.jcommander.ParameterException( \"Dynamic parameter expected a value of the form a\" + a + \"b\" + \" but got:\" + sv ); } callPut( object, parameterized, sv.substring( 0, aInd ), sv.substring( aInd + 1 ) );  =>   java.lang.String a = m_dynamicParameter.assignment(); java.lang.String sv = value.toString(); int aInd = sv.indexOf( a ); if (aInd == -1) {     throw new com.beust.jcommander.ParameterException( \"Dynamic parameter expected a value of the form a\" + a + \"b\" + \" but got:\" + sv ); }
+SDL_19:92:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object): throw new com.beust.jcommander.ParameterException( \"Dynamic parameter expected a value of the form a\" + a + \"b\" + \" but got:\" + sv );  =>  
+SDL_20:94:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object): if (aInd == -1) {     throw new com.beust.jcommander.ParameterException( \"Dynamic parameter expected a value of the form a\" + a + \"b\" + \" but got:\" + sv ); }  =>   if (true) {     throw new com.beust.jcommander.ParameterException( \"Dynamic parameter expected a value of the form a\" + a + \"b\" + \" but got:\" + sv ); }
+SDL_21:110:void_callPut(java.lang.Object,com.beust.jcommander.Parameterized,java.lang.String,java.lang.String): try {     java.lang.reflect.Method m;     m = findPut( parameterized.getType() );     m.invoke( parameterized.get( object ), key, value ); } catch ( java.lang.SecurityException e ) {     e.printStackTrace(); } catch ( java.lang.IllegalAccessException e ) {     e.printStackTrace(); } catch ( java.lang.reflect.InvocationTargetException e ) {     e.printStackTrace(); } catch ( java.lang.NoSuchMethodException e ) {     e.printStackTrace(); }  =>   try {     java.lang.reflect.Method m;     m.invoke( parameterized.get( object ), key, value ); } catch ( java.lang.IllegalAccessException e ) {     e.printStackTrace(); } catch ( java.lang.reflect.InvocationTargetException e ) {     e.printStackTrace(); } catch ( java.lang.NoSuchMethodException e ) {     e.printStackTrace(); }
+SDL_22:110:void_callPut(java.lang.Object,com.beust.jcommander.Parameterized,java.lang.String,java.lang.String): try {     java.lang.reflect.Method m;     m = findPut( parameterized.getType() );     m.invoke( parameterized.get( object ), key, value ); } catch ( java.lang.SecurityException e ) {     e.printStackTrace(); } catch ( java.lang.IllegalAccessException e ) {     e.printStackTrace(); } catch ( java.lang.reflect.InvocationTargetException e ) {     e.printStackTrace(); } catch ( java.lang.NoSuchMethodException e ) {     e.printStackTrace(); }  =>   try {     java.lang.reflect.Method m;     m = findPut( parameterized.getType() ); } catch ( java.lang.IllegalAccessException e ) {     e.printStackTrace(); } catch ( java.lang.reflect.InvocationTargetException e ) {     e.printStackTrace(); } catch ( java.lang.NoSuchMethodException e ) {     e.printStackTrace(); }
+SDL_23:110:void_callPut(java.lang.Object,com.beust.jcommander.Parameterized,java.lang.String,java.lang.String): try {     java.lang.reflect.Method m;     m = findPut( parameterized.getType() );     m.invoke( parameterized.get( object ), key, value ); } catch ( java.lang.SecurityException e ) {     e.printStackTrace(); } catch ( java.lang.IllegalAccessException e ) {     e.printStackTrace(); } catch ( java.lang.reflect.InvocationTargetException e ) {     e.printStackTrace(); } catch ( java.lang.NoSuchMethodException e ) {     e.printStackTrace(); }  =>   try {     java.lang.reflect.Method m;     m.invoke( parameterized.get( object ), key, value ); } catch ( java.lang.SecurityException e ) {     e.printStackTrace(); } catch ( java.lang.reflect.InvocationTargetException e ) {     e.printStackTrace(); } catch ( java.lang.NoSuchMethodException e ) {     e.printStackTrace(); }
+SDL_24:110:void_callPut(java.lang.Object,com.beust.jcommander.Parameterized,java.lang.String,java.lang.String): try {     java.lang.reflect.Method m;     m = findPut( parameterized.getType() );     m.invoke( parameterized.get( object ), key, value ); } catch ( java.lang.SecurityException e ) {     e.printStackTrace(); } catch ( java.lang.IllegalAccessException e ) {     e.printStackTrace(); } catch ( java.lang.reflect.InvocationTargetException e ) {     e.printStackTrace(); } catch ( java.lang.NoSuchMethodException e ) {     e.printStackTrace(); }  =>   try {     java.lang.reflect.Method m;     m = findPut( parameterized.getType() ); } catch ( java.lang.SecurityException e ) {     e.printStackTrace(); } catch ( java.lang.reflect.InvocationTargetException e ) {     e.printStackTrace(); } catch ( java.lang.NoSuchMethodException e ) {     e.printStackTrace(); }
+SDL_25:110:void_callPut(java.lang.Object,com.beust.jcommander.Parameterized,java.lang.String,java.lang.String): try {     java.lang.reflect.Method m;     m = findPut( parameterized.getType() );     m.invoke( parameterized.get( object ), key, value ); } catch ( java.lang.SecurityException e ) {     e.printStackTrace(); } catch ( java.lang.IllegalAccessException e ) {     e.printStackTrace(); } catch ( java.lang.reflect.InvocationTargetException e ) {     e.printStackTrace(); } catch ( java.lang.NoSuchMethodException e ) {     e.printStackTrace(); }  =>   try {     java.lang.reflect.Method m;     m.invoke( parameterized.get( object ), key, value ); } catch ( java.lang.SecurityException e ) {     e.printStackTrace(); } catch ( java.lang.IllegalAccessException e ) {     e.printStackTrace(); } catch ( java.lang.NoSuchMethodException e ) {     e.printStackTrace(); }
+SDL_26:110:void_callPut(java.lang.Object,com.beust.jcommander.Parameterized,java.lang.String,java.lang.String): try {     java.lang.reflect.Method m;     m = findPut( parameterized.getType() );     m.invoke( parameterized.get( object ), key, value ); } catch ( java.lang.SecurityException e ) {     e.printStackTrace(); } catch ( java.lang.IllegalAccessException e ) {     e.printStackTrace(); } catch ( java.lang.reflect.InvocationTargetException e ) {     e.printStackTrace(); } catch ( java.lang.NoSuchMethodException e ) {     e.printStackTrace(); }  =>   try {     java.lang.reflect.Method m;     m = findPut( parameterized.getType() ); } catch ( java.lang.SecurityException e ) {     e.printStackTrace(); } catch ( java.lang.IllegalAccessException e ) {     e.printStackTrace(); } catch ( java.lang.NoSuchMethodException e ) {     e.printStackTrace(); }
+SDL_27:110:void_callPut(java.lang.Object,com.beust.jcommander.Parameterized,java.lang.String,java.lang.String): try {     java.lang.reflect.Method m;     m = findPut( parameterized.getType() );     m.invoke( parameterized.get( object ), key, value ); } catch ( java.lang.SecurityException e ) {     e.printStackTrace(); } catch ( java.lang.IllegalAccessException e ) {     e.printStackTrace(); } catch ( java.lang.reflect.InvocationTargetException e ) {     e.printStackTrace(); } catch ( java.lang.NoSuchMethodException e ) {     e.printStackTrace(); }  =>   try {     java.lang.reflect.Method m;     m.invoke( parameterized.get( object ), key, value ); } catch ( java.lang.SecurityException e ) {     e.printStackTrace(); } catch ( java.lang.IllegalAccessException e ) {     e.printStackTrace(); } catch ( java.lang.reflect.InvocationTargetException e ) {     e.printStackTrace(); }
+SDL_28:110:void_callPut(java.lang.Object,com.beust.jcommander.Parameterized,java.lang.String,java.lang.String): try {     java.lang.reflect.Method m;     m = findPut( parameterized.getType() );     m.invoke( parameterized.get( object ), key, value ); } catch ( java.lang.SecurityException e ) {     e.printStackTrace(); } catch ( java.lang.IllegalAccessException e ) {     e.printStackTrace(); } catch ( java.lang.reflect.InvocationTargetException e ) {     e.printStackTrace(); } catch ( java.lang.NoSuchMethodException e ) {     e.printStackTrace(); }  =>   try {     java.lang.reflect.Method m;     m = findPut( parameterized.getType() ); } catch ( java.lang.SecurityException e ) {     e.printStackTrace(); } catch ( java.lang.IllegalAccessException e ) {     e.printStackTrace(); } catch ( java.lang.reflect.InvocationTargetException e ) {     e.printStackTrace(); }
+SDL_29:124:java.lang.String_getAssignment(): return m_dynamicParameter != null ? m_dynamicParameter.assignment() : \"\";  =>   return \"\";
+SDL_30:129:boolean_isHelp(): return m_parameter != null && m_parameter.help();  =>   return true;
+SDL_31:129:boolean_isHelp(): return m_parameter != null && m_parameter.help();  =>   return false;
+VDL_1:40:int_arity():m_parameter != null => null
+VDL_2:45:boolean_hidden():m_parameter != null => null
+VDL_3:50:boolean_required():m_parameter != null => null
+VDL_4:55:boolean_password():m_parameter != null => null
+VDL_5:60:java.lang.String[]_names():m_parameter != null => null
+VDL_6:65:boolean_variableArity():m_parameter != null => null
+VDL_7:70:java.lang.Class_validateWith():m_parameter != null => null
+VDL_8:75:java.lang.Class_validateValueWith():m_parameter != null => null
+VDL_9:80:boolean_echoInput():m_parameter != null => null
+VDL_10:85:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):m_parameter != null => null
+VDL_11:91:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):aInd == -1 => -1
+VDL_12:92:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):"Dynamic parameter expected a value of the form a" + a => "Dynamic parameter expected a value of the form a"
+VDL_13:92:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):"Dynamic parameter expected a value of the form a" + a + "b" + " but got:" + sv => "Dynamic parameter expected a value of the form a" + a + "b" + " but got:"
+VDL_14:94:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):aInd + 1 => 1
+VDL_15:123:java.lang.String_getAssignment():m_dynamicParameter != null => null
+VDL_16:128:boolean_isHelp():m_parameter != null => null
+ODL_1:40:int_arity():m_parameter != null => m_parameter
+ODL_2:40:int_arity():m_parameter != null => null
+ODL_3:45:boolean_hidden():m_parameter != null => m_parameter
+ODL_4:45:boolean_hidden():m_parameter != null => null
+ODL_5:50:boolean_required():m_parameter != null => m_parameter
+ODL_6:50:boolean_required():m_parameter != null => null
+ODL_7:55:boolean_password():m_parameter != null => m_parameter
+ODL_8:55:boolean_password():m_parameter != null => null
+ODL_9:60:java.lang.String[]_names():m_parameter != null => m_parameter
+ODL_10:60:java.lang.String[]_names():m_parameter != null => null
+ODL_11:65:boolean_variableArity():m_parameter != null => m_parameter
+ODL_12:65:boolean_variableArity():m_parameter != null => null
+ODL_13:70:java.lang.Class_validateWith():m_parameter != null => m_parameter
+ODL_14:70:java.lang.Class_validateWith():m_parameter != null => null
+ODL_15:75:java.lang.Class_validateValueWith():m_parameter != null => m_parameter
+ODL_16:75:java.lang.Class_validateValueWith():m_parameter != null => null
+ODL_17:80:boolean_echoInput():m_parameter != null => m_parameter
+ODL_18:80:boolean_echoInput():m_parameter != null => null
+ODL_19:85:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):m_parameter != null => m_parameter
+ODL_20:85:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):m_parameter != null => null
+ODL_21:91:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):-1 => 1
+ODL_22:91:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):aInd == -1 => aInd
+ODL_23:91:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):aInd == -1 => -1
+ODL_24:92:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):"Dynamic parameter expected a value of the form a" + a => "Dynamic parameter expected a value of the form a"
+ODL_25:92:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):"Dynamic parameter expected a value of the form a" + a => a
+ODL_26:92:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):"Dynamic parameter expected a value of the form a" + a + "b" => "Dynamic parameter expected a value of the form a" + a
+ODL_27:92:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):"Dynamic parameter expected a value of the form a" + a + "b" => "b"
+ODL_28:92:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):"Dynamic parameter expected a value of the form a" + a + "b" + " but got:" => "Dynamic parameter expected a value of the form a" + a + "b"
+ODL_29:92:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):"Dynamic parameter expected a value of the form a" + a + "b" + " but got:" => " but got:"
+ODL_30:92:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):"Dynamic parameter expected a value of the form a" + a + "b" + " but got:" + sv => "Dynamic parameter expected a value of the form a" + a + "b" + " but got:"
+ODL_31:92:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):"Dynamic parameter expected a value of the form a" + a + "b" + " but got:" + sv => sv
+ODL_32:94:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):aInd + 1 => aInd
+ODL_33:94:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):aInd + 1 => 1
+ODL_34:123:java.lang.String_getAssignment():m_dynamicParameter != null => m_dynamicParameter
+ODL_35:123:java.lang.String_getAssignment():m_dynamicParameter != null => null
+ODL_36:128:boolean_isHelp():m_parameter != null => m_parameter
+ODL_37:128:boolean_isHelp():m_parameter != null => null
+ODL_38:128:boolean_isHelp():m_parameter != null && m_parameter.help() => m_parameter != null
+ODL_39:128:boolean_isHelp():m_parameter != null && m_parameter.help() => m_parameter.help()
+CDL_1:40:int_arity():m_parameter != null => m_parameter
+CDL_2:45:boolean_hidden():m_parameter != null => m_parameter
+CDL_3:50:boolean_required():m_parameter != null => m_parameter
+CDL_4:55:boolean_password():m_parameter != null => m_parameter
+CDL_5:60:java.lang.String[]_names():m_parameter != null => m_parameter
+CDL_6:65:boolean_variableArity():m_parameter != null => m_parameter
+CDL_7:70:java.lang.Class_validateWith():m_parameter != null => m_parameter
+CDL_8:75:java.lang.Class_validateValueWith():m_parameter != null => m_parameter
+CDL_9:80:boolean_echoInput():m_parameter != null => m_parameter
+CDL_10:85:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):m_parameter != null => m_parameter
+CDL_11:91:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):-1 =>  
+CDL_12:92:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):"Dynamic parameter expected a value of the form a" + a => a
+CDL_13:92:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):"Dynamic parameter expected a value of the form a" + a + "b" => "Dynamic parameter expected a value of the form a" + a
+CDL_14:92:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):"Dynamic parameter expected a value of the form a" + a + "b" + " but got:" => "Dynamic parameter expected a value of the form a" + a + "b"
+CDL_15:94:void_addValue(com.beust.jcommander.Parameterized,java.lang.Object,java.lang.Object):aInd + 1 => aInd
+CDL_16:123:java.lang.String_getAssignment():m_dynamicParameter != null => m_dynamicParameter
+CDL_17:128:boolean_isHelp():m_parameter != null => m_parameter

@@ -1,0 +1,3 @@
+BaseConverter(java.lang.String)
+java.lang.String_getOptionName()
+java.lang.String_getErrorString(java.lang.String,java.lang.String)

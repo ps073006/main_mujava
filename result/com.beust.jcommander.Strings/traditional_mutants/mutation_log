@@ -1,0 +1,13 @@
+ROR_1:12:boolean_isStringEmpty(java.lang.String): s == null  =>   s != null
+COR_1:12:boolean_isStringEmpty(java.lang.String): s == null || \"\".equals( s )  =>   s == null && \"\".equals( s )
+COR_2:12:boolean_isStringEmpty(java.lang.String): s == null || \"\".equals( s )  =>   s == null ^ \"\".equals( s )
+COI_1:12:boolean_isStringEmpty(java.lang.String): s == null  =>  !(s == null)
+COI_2:12:boolean_isStringEmpty(java.lang.String): s == null || \"\".equals( s )  =>  !(s == null || "".equals( s ))
+SDL_1:13:boolean_isStringEmpty(java.lang.String): return s == null || \"\".equals( s );  =>   return true;
+SDL_2:13:boolean_isStringEmpty(java.lang.String): return s == null || \"\".equals( s );  =>   return false;
+VDL_1:12:boolean_isStringEmpty(java.lang.String):s == null => null
+ODL_1:12:boolean_isStringEmpty(java.lang.String):s == null => s
+ODL_2:12:boolean_isStringEmpty(java.lang.String):s == null => null
+ODL_3:12:boolean_isStringEmpty(java.lang.String):s == null || "".equals( s ) => s == null
+ODL_4:12:boolean_isStringEmpty(java.lang.String):s == null || "".equals( s ) => "".equals( s )
+CDL_1:12:boolean_isStringEmpty(java.lang.String):s == null => s

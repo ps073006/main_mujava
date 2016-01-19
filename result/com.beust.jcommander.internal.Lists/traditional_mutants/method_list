@@ -1,0 +1,6 @@
+java.util.List_newArrayList()
+java.util.List_newArrayList(java.util.Collection)
+java.util.List_newArrayList(K)
+java.util.List_newArrayList(int)
+java.util.LinkedList_newLinkedList()
+java.util.LinkedList_newLinkedList(java.util.Collection)

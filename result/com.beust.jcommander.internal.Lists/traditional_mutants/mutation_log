@@ -1,0 +1,4 @@
+AOIU_1:34:java.util.List_newArrayList(int):size => -size
+AOIS_1:34:java.util.List_newArrayList(int):size => size++
+AOIS_2:34:java.util.List_newArrayList(int):size => size--
+LOI_1:34:java.util.List_newArrayList(int):size => ~size

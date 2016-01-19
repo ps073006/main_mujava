@@ -1,0 +1,48 @@
+AORB_1:29:java.util.Map_newHashMap(T):i + 1 => i * 1
+AORB_2:29:java.util.Map_newHashMap(T):i + 1 => i / 1
+AORB_3:29:java.util.Map_newHashMap(T):i + 1 => i % 1
+AORB_4:29:java.util.Map_newHashMap(T):i + 1 => i - 1
+AOIU_1:29:java.util.Map_newHashMap(T):i => -i
+AOIU_2:29:java.util.Map_newHashMap(T):i => -i
+AOIS_1:28:java.util.Map_newHashMap(T):i => ++i
+AOIS_2:28:java.util.Map_newHashMap(T):i => --i
+AOIS_3:28:java.util.Map_newHashMap(T):i => i++
+AOIS_4:28:java.util.Map_newHashMap(T):i => i--
+AOIS_5:28:java.util.Map_newHashMap(T):parameters.length => ++parameters.length
+AOIS_6:28:java.util.Map_newHashMap(T):parameters.length => --parameters.length
+AOIS_7:28:java.util.Map_newHashMap(T):parameters.length => parameters.length++
+AOIS_8:28:java.util.Map_newHashMap(T):parameters.length => parameters.length--
+AOIS_9:29:java.util.Map_newHashMap(T):i => i++
+AOIS_10:29:java.util.Map_newHashMap(T):i => i--
+AOIS_11:29:java.util.Map_newHashMap(T):i => ++i
+AOIS_12:29:java.util.Map_newHashMap(T):i => --i
+AOIS_13:29:java.util.Map_newHashMap(T):i => i++
+AOIS_14:29:java.util.Map_newHashMap(T):i => i--
+ROR_1:28:java.util.Map_newHashMap(T): i < parameters.length  =>   i > parameters.length
+ROR_2:28:java.util.Map_newHashMap(T): i < parameters.length  =>   i >= parameters.length
+ROR_3:28:java.util.Map_newHashMap(T): i < parameters.length  =>   i <= parameters.length
+ROR_4:28:java.util.Map_newHashMap(T): i < parameters.length  =>   i == parameters.length
+ROR_5:28:java.util.Map_newHashMap(T): i < parameters.length  =>   i != parameters.length
+ROR_6:28:java.util.Map_newHashMap(T): i < parameters.length  =>   true
+ROR_7:28:java.util.Map_newHashMap(T): i < parameters.length  =>   false
+COI_1:28:java.util.Map_newHashMap(T): i < parameters.length  =>  !(i < parameters.length)
+LOI_1:28:java.util.Map_newHashMap(T):i => ~i
+LOI_2:28:java.util.Map_newHashMap(T):parameters.length => ~parameters.length
+LOI_3:29:java.util.Map_newHashMap(T):i => ~i
+LOI_4:29:java.util.Map_newHashMap(T):i => ~i
+ASRS_1:28:java.util.Map_newHashMap(T):i += 2 => i /= 2
+ASRS_2:28:java.util.Map_newHashMap(T):i += 2 => i *= 2
+ASRS_3:28:java.util.Map_newHashMap(T):i += 2 => i -= 2
+ASRS_4:28:java.util.Map_newHashMap(T):i += 2 => i %= 2
+SDL_1:29:java.util.Map_newHashMap(T): java.util.Map<T,T> result = Maps.newHashMap(); for (int i = 0; i < parameters.length; i += 2) {     result.put( parameters[i], parameters[i + 1] ); } return result;  =>   java.util.Map<T,T> result = Maps.newHashMap(); return result;
+SDL_2:29:java.util.Map_newHashMap(T): result.put( parameters[i], parameters[i + 1] );  =>  
+SDL_3:31:java.util.Map_newHashMap(T): for (int i = 0; i < parameters.length; i += 2) {     result.put( parameters[i], parameters[i + 1] ); }  =>   for (int i = 0;; i += 2) {     result.put( parameters[i], parameters[i + 1] ); }
+SDL_4:31:java.util.Map_newHashMap(T): for (int i = 0; i < parameters.length; i += 2) {     result.put( parameters[i], parameters[i + 1] ); }  =>   for (int i = 0; i < parameters.length;) {     result.put( parameters[i], parameters[i + 1] ); }
+VDL_1:28:java.util.Map_newHashMap(T):i < parameters.length => parameters.length
+VDL_2:29:java.util.Map_newHashMap(T):i + 1 => 1
+ODL_1:28:java.util.Map_newHashMap(T):i < parameters.length => i
+ODL_2:28:java.util.Map_newHashMap(T):i < parameters.length => parameters.length
+ODL_3:28:java.util.Map_newHashMap(T):i += 2 => i = 2
+ODL_4:29:java.util.Map_newHashMap(T):i + 1 => i
+ODL_5:29:java.util.Map_newHashMap(T):i + 1 => 1
+CDL_1:29:java.util.Map_newHashMap(T):i + 1 => i
